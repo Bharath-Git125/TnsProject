@@ -1,6 +1,6 @@
 package com.Tns.javaPractices.inheritanceConcpt;
 
-public class A {
+public class A {//Hybrid Inheritance
 	void show() {
 		System.out.println("iam Parent");
 	}
