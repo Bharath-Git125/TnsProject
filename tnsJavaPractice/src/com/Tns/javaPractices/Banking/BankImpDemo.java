@@ -1,0 +1,12 @@
+package com.Tns.javaPractices.Banking;
+
+public class BankImpDemo {
+	public static void main(String[] args) {
+		Bank bank=new BankImp();
+		Account account=new Account(504,"bharath",25000,bank);
+		account.deposit(4000);
+		account.withdraw(2000);
+		System.out.println(account);
+	}
+
+}
