@@ -1,8 +1,8 @@
-package com.Tns.javaPractices;
+package com.Tns.javaPractices.ConstructorConcpt;
 
-public class demo4Constructor {
+public class classConstr {
 	public static void main(String args[]) {
-		demo4Constructor d4 = new demo4Constructor();
+		classConstr d4 = new classConstr();
 		d4.A();
 		d4.A(20);
 		d4.A(10, 200);
@@ -20,5 +20,4 @@ public class demo4Constructor {
 		System.out.println("B value is :"+a+b);
 	}
 }
-
 

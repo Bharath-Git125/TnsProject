@@ -1,7 +1,6 @@
-package com.Tns.javaPractices;
+package com.Tns.javaPractices.OperatorsConcpt;
 
-public class demo3Operators {
-
+public class classOperts {
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 20;
@@ -21,7 +20,7 @@ public class demo3Operators {
 		int c= 40;
 		int d = 50;
 		if(c<d&&c==d)
-		System.out.println(true);
+			System.out.println(true);
 		else
 			System.out.println(false);
 		System.out.println(" And Condition  ");
@@ -30,6 +29,13 @@ public class demo3Operators {
 		else
 			System.out.println("True");
 		System.out.println("OR Condition");
+		//unary Operators
+		System.out.println(a);
+		System.out.println(a++);//or a--
+		System.out.println(a);
+		System.out.println(++b);//or--b
+		System.out.println(b);
 	}
+
 
 }

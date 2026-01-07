@@ -1,7 +1,6 @@
-package com.Tns.javaPractices;
+package com.Tns.javaPractices.ConditionConcpt;
 
-public class demo4Condition {
-
+public class classCondtn {
 	public static void main(String[] args) {
 		System.out.println("-------For loop condition-------");
 		int a = 5;
@@ -11,7 +10,7 @@ public class demo4Condition {
 			}
 			System.out.println();
 		}
-		
+
 		System.out.println("-------While loop condition-------");
 		int b = 10;
 		while(b<20) {
@@ -26,5 +25,4 @@ public class demo4Condition {
 		} while (c<20);
 
 	}
-
 }

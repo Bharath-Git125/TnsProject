@@ -1,8 +1,8 @@
-package com.Tns.javaPractices;
+package com.Tns.javaPractices.ScannerConcpt;
 
 import java.util.Scanner;
 
-public class demo7Scanner {
+public class classScanner {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -14,5 +14,6 @@ public class demo7Scanner {
 		System.out.println("yure age is :"+age);
 		sc.close();
 	}
+
 
 }
